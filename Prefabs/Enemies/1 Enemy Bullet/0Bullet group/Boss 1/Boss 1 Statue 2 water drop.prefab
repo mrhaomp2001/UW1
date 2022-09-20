@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5297727399729222776}
   m_Layer: 0
   m_Name: Boss 1 Statue 2 water drop
-  m_TagString: Untagged
+  m_TagString: BulletSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -20,7 +20,7 @@ public class Timer : MonoBehaviour
         isStartTimer = true;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (timeUnit <= 0)
         {

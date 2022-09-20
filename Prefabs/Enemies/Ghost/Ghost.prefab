@@ -266,7 +266,7 @@ MonoBehaviour:
   enemyHp: 2
   animator: {fileID: 3724881386491222619}
   ObjectContainer: {fileID: 3724881385973242861}
-  dieAnimation: {fileID: 3423613201979852374, guid: bbdf9105a7e984b40abb9331eab6d8b7, type: 3}
+  dieAnimation: {fileID: 1709908674196357677, guid: 94d2fc91a1c28ed4baaee09fdb8c866b, type: 3}
   dieAnimationColor: {r: 1, g: 0.78431374, b: 1, a: 1}
   isObjectInPlayerArea: 0
 --- !u!114 &3724881386658163982

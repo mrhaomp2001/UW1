@@ -25,6 +25,10 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, DialogueTrigger nextDialogue)
     {
+        if(FindObjectOfType<PlayerController>() != null)
+        {
+            FindObjectOfType<PlayerController>().IsTalking = true;
+        }
         nextDialogueTrigger = nextDialogue;
         animatorDialogueBox.SetInteger("DialogueType", 1);
 
@@ -79,6 +83,11 @@ public class DialogueManager : MonoBehaviour
         else
         {
             animatorDialogueBox.SetInteger("DialogueType", 0);
+        }
+
+        if (FindObjectOfType<PlayerController>() != null)
+        {
+            FindObjectOfType<PlayerController>().IsTalking = false;
         }
     }
 

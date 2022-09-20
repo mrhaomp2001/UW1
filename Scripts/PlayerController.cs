@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -32,6 +33,9 @@ public class PlayerController : MonoBehaviour
     private float speedFocus, speedControl;
 
     [Header(" --- ")]
+    [SerializeField] private bool isTalking; 
+
+    [Header(" --- ")]
     [SerializeField] private float playerHurtCdTime;
     [SerializeField] private bool isCanHurt = true;
 
@@ -43,6 +47,7 @@ public class PlayerController : MonoBehaviour
     [Header(" --- ")]
     [SerializeField] private float playerAttackCdTime;
     [SerializeField] private Timer attackTimer;
+    [SerializeField] private Slider attackCooldownSlider;
 
     [Header(" >> Player Skills: ")]
     [SerializeField] private GameObject playerShield;
@@ -59,6 +64,7 @@ public class PlayerController : MonoBehaviour
     public float JumpHeight { get => jumpHeight; set => jumpHeight = value; }
     public float Speed { get => speed; set => speed = value; }
     public int Damage { get => damage; set => damage = value; }
+    public bool IsTalking { get => isTalking; set => isTalking = value; }
 
     private float GetPlayerSpeed()
     {
@@ -82,7 +88,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         isJumpAble = playerJumpCheck.IsCanJump();
-        if (!isHurt)
+        if (!isHurt && !isTalking)
         {
             PlayerMovement();
             PlayerFire();
@@ -153,7 +159,7 @@ public class PlayerController : MonoBehaviour
 
     public void Hurt()
     {
-        if (isCanHurt)
+        if (isCanHurt && !isTalking)
         {
             GameData.PLAYER_HP--;
             // debug
@@ -204,8 +210,6 @@ public class PlayerController : MonoBehaviour
 
     public void PlayerFire()
     {
-
-
         if (attackTimer.IsCompleted())
         {
             if (Input.GetButtonDown("Fire"))
@@ -214,14 +218,18 @@ public class PlayerController : MonoBehaviour
                 {
                     Instantiate(playerUpAttack, transformFirePoint.position, transformFirePoint.rotation);
                     attackTimer.SetTime(playerAttackCdTime / 2);
+                    attackCooldownSlider.maxValue = playerAttackCdTime / 2;
                 }
                 else
                 {
                     Instantiate(playerNormalAttack, transformFirePoint.position, transformFirePoint.rotation);
                     attackTimer.SetTime(playerAttackCdTime);
+                    attackCooldownSlider.maxValue = playerAttackCdTime;
                 }
             }
         }
+        attackCooldownSlider.value = attackTimer.timeTotal;
+
     }
 
     private void PlayerMovement()

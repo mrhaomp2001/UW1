@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 4228366818619407523}
   m_Layer: 0
   m_Name: Boss 1 Stage 1 Skill 2 Direction
-  m_TagString: Untagged
+  m_TagString: BulletSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

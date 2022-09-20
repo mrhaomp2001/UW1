@@ -6536,7 +6536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f0a85e41fc1784c8bcf0ad70bc18cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeTotal: 50
+  timeTotal: 40
   timeUnit: 0.1
   isStartTimer: 0
 --- !u!1 &773065609
@@ -7950,6 +7950,10 @@ MonoBehaviour:
     BulletGroup: {fileID: 5175823803275354143, guid: 48fa176e0983ee34f8dffdc920f47c49, type: 3}
   - CreatePosition: {fileID: 762799868}
     BulletGroup: {fileID: 6836413165528929620, guid: 40c8b09b116cc6742969098c20eea722, type: 3}
+  - CreatePosition: {fileID: 773065611}
+    BulletGroup: {fileID: 3912154793415766445, guid: e28c756953d06f744acb9145968239b1, type: 3}
+  - CreatePosition: {fileID: 264694903}
+    BulletGroup: {fileID: 2772946146826863107, guid: d5eace5bf52321446b0d77e80fc55c18, type: 3}
 --- !u!212 &985972489
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8013,6 +8017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e30315bdcf10249b84156a035ead1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 985972487}
+  boss: {fileID: 1302203886}
 --- !u!1001 &987744143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -124922,6 +124928,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8230389889171987820, guid: ac4b38fab20468a42be1b656342667cc, type: 3}
   m_PrefabInstance: {fileID: 1217500373}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1227367451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1227367452}
+  m_Layer: 0
+  m_Name: Boss Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1227367452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227367451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -394.42, y: -8.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1252132567
 GameObject:
   m_ObjectHideFlags: 0
@@ -125331,6 +125367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1302203885}
+  - component: {fileID: 1302203887}
   - component: {fileID: 1302203886}
   m_Layer: 0
   m_Name: Hitbox
@@ -125365,7 +125402,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec2f9b6bf6f21748ad0e47d88349c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 0f000000140000000f000000140000001400000014000000
+  currentState: 0
+  stateCount: 6
   bossHp: 0
+  isStarted: 1
+  bossController: {fileID: 985972490}
+  destroyAllBullet: {fileID: 2633630445601587505, guid: 82b6eb5edd203a644a4b9555e72ff588, type: 3}
+--- !u!61 &1302203887
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302203884}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2}
+  m_EdgeRadius: 0
 --- !u!1 &1313303388
 GameObject:
   m_ObjectHideFlags: 0
@@ -125404,17 +125473,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1598411102, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 300
+    - target: {fileID: 1730462859, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730462859, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8432800391869464135, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -394
+      value: -393
       objectReference: {fileID: 0}
     - target: {fileID: 8432800391869464135, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.4
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 8432800392512007564, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
       propertyPath: m_Name
@@ -125466,19 +125539,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8432800392752679600, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -394
+      value: -393
       objectReference: {fileID: 0}
     - target: {fileID: 8432800392752679600, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.4
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 8432800393081622020, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -394
+      value: -393
       objectReference: {fileID: 0}
     - target: {fileID: 8432800393081622020, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.4
+      value: -4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2255ec5558fef1c4fb965f50891b4be6, type: 3}
@@ -130546,7 +130619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f0a85e41fc1784c8bcf0ad70bc18cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeTotal: 42
+  timeTotal: 35
   timeUnit: 0.1
   isStartTimer: 0
 --- !u!1001 &2101551683

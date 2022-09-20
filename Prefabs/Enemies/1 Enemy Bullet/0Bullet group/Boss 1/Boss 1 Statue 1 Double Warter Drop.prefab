@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 944934008526638313}
   m_Layer: 0
   m_Name: Boss 1 Statue 1 Double Warter Drop
-  m_TagString: Untagged
+  m_TagString: BulletSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
