@@ -1,0 +1,547 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8482218543265627669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8482218543265627668}
+  - component: {fileID: 5578606946496034774}
+  m_Layer: 0
+  m_Name: Chomper Bullet Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8482218543265627668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8482218543265627669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 960598463621617568}
+  - {fileID: 960598463671229091}
+  - {fileID: 960598464355748299}
+  - {fileID: 960598464371306399}
+  - {fileID: 960598463669907524}
+  - {fileID: 960598464461402349}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5578606946496034774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8482218543265627669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c6f5b85987a8c4b95e65cad6413a5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDestroyByTime: 1
+  destroyTime: 5
+  destroyEffect: {fileID: 0}
+  destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!1001 &8482218543775946744
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8482218543265627668}
+    m_Modifications:
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467940, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Name
+      value: Green Moon Bullet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+--- !u!4 &960598464371306399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+  m_PrefabInstance: {fileID: 8482218543775946744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8482218543866038410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8482218543265627668}
+    m_Modifications:
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467940, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Name
+      value: Green Moon Bullet (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.8660254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+--- !u!4 &960598464461402349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+  m_PrefabInstance: {fileID: 8482218543866038410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8482218544563089836
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8482218543265627668}
+    m_Modifications:
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467940, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Name
+      value: Green Moon Bullet (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.86602545
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+--- !u!4 &960598464355748299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+  m_PrefabInstance: {fileID: 8482218544563089836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8482218545163268039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8482218543265627668}
+    m_Modifications:
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467940, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Name
+      value: Green Moon Bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+--- !u!4 &960598463621617568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+  m_PrefabInstance: {fileID: 8482218545163268039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8482218545211017251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8482218543265627668}
+    m_Modifications:
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467940, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Name
+      value: Green Moon Bullet (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.8660254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+--- !u!4 &960598463669907524 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+  m_PrefabInstance: {fileID: 8482218545211017251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8482218545213924036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8482218543265627668}
+    m_Modifications:
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630069134079256, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467940, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_Name
+      value: Green Moon Bullet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8660254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710630070338468249, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+      propertyPath: destroyEffectColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+--- !u!4 &960598463671229091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8710630070338467943, guid: 681b7dcbe31d9ed48a9e3cff9995d06a, type: 3}
+  m_PrefabInstance: {fileID: 8482218545213924036}
+  m_PrefabAsset: {fileID: 0}
