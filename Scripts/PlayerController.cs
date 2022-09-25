@@ -60,6 +60,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject playerControlEffect;
     private GameObject playerControlEffectControl;
 
+    [Header(" >> UI: ")]
+    [SerializeField] private Slider hpBar;
+    [SerializeField] private Slider mpBar;
+
+
     public bool IsJumpAble { get => isJumpAble; set => isJumpAble = value; }
     public float JumpHeight { get => jumpHeight; set => jumpHeight = value; }
     public float Speed { get => speed; set => speed = value; }
@@ -73,7 +78,11 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        GameData.PLAYER_HP = 50;
+        GameData.PLAYER_HP = 5;
+        GameData.PLAYER_HP_MAX = 10;
+        GameData.PLAYER_MP = 3;
+        GameData.PLAYER_MP_MAX = 5;
+
         if (instancePlayerController == null)
         {
             instancePlayerController = this;
@@ -96,6 +105,8 @@ public class PlayerController : MonoBehaviour
         Animation(AnimationStates());
 
         PlayerSkill();
+
+        UpdateUI();
 
         Test();
     }
@@ -208,6 +219,17 @@ public class PlayerController : MonoBehaviour
         return 0; // idle
     }
 
+    private void UpdateUI()
+    {
+        attackCooldownSlider.value = attackTimer.timeTotal;
+
+        hpBar.maxValue = GameData.PLAYER_HP_MAX;
+        hpBar.value = GameData.PLAYER_HP;
+
+        mpBar.maxValue = GameData.PLAYER_MP_MAX;
+        mpBar.value = GameData.PLAYER_MP;
+    }
+
     public void PlayerFire()
     {
         if (attackTimer.IsCompleted())
@@ -228,7 +250,6 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-        attackCooldownSlider.value = attackTimer.timeTotal;
 
     }
 
