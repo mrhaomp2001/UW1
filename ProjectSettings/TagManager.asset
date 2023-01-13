@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - PlayerBullet
+  - EnemyJump
+  - PlayerArea
+  - EnemyBullet
+  - BulletSpawner
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3854462771
+    locked: 0
+  - name: Foreground
+    uniqueID: 848818607
+    locked: 0
+  - name: Enemy
+    uniqueID: 1510524941
+    locked: 0
+  - name: Boss
+    uniqueID: 1116963227
+    locked: 0
+  - name: Player
+    uniqueID: 1641678361
+    locked: 0
+  - name: Enemy Bullet
+    uniqueID: 1505722153
+    locked: 0
+  - name: Player Bullet
+    uniqueID: 4232377695
+    locked: 0
+  - name: Frontground
+    uniqueID: 125365625
+    locked: 0
