@@ -100,6 +100,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 1
   rb: {fileID: 4395616447301973210}
   destroyObject: {fileID: 4395616447301973285}
 --- !u!114 &4395616447301973285

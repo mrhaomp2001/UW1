@@ -13,6 +13,8 @@ public class EnemyBullet : MonoBehaviour
     [SerializeField] private bool isMoveToPlayerUpdate;
     [SerializeField] private bool isMoveRouteCurve;
 
+    [SerializeField] private bool isTrail;
+
 
     [Header(" >> Components: ")]
     [SerializeField] private Rigidbody2D rb;
@@ -64,8 +66,11 @@ public class EnemyBullet : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            destroyObject.DestroyGameObject();
-            collision.GetComponent<PlayerController>().Hurt();
+            if(!isTrail)
+            {
+                destroyObject.DestroyGameObject();
+                collision.GetComponent<PlayerController>().Hurt();
+            }
         }
     }
 
