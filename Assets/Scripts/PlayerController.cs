@@ -82,9 +82,9 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        GameData.PLAYER_HP = 5;
+        GameData.PLAYER_HP = 50;
         GameData.PLAYER_HP_MAX = 10;
-        GameData.PLAYER_MP = 3;
+        GameData.PLAYER_MP = 30;
         GameData.PLAYER_MP_MAX = 5;
 
         if (instancePlayerController == null)

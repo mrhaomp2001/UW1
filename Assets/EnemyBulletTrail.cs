@@ -9,6 +9,7 @@ public class EnemyBulletTrail : MonoBehaviour
     [SerializeField] private List<GameObject> bullets;
     private float runtime;
     [SerializeField] private float timeRate;
+    [SerializeField] private bool isUseOriginRotation;
 
     private void Start()
     {
@@ -19,7 +20,15 @@ public class EnemyBulletTrail : MonoBehaviour
     {
         if (runtime <= Time.time && createTransform != null)
         {
-            Instantiate(bullets[Random.Range(0, bullets.Count)], createTransform.position, createTransform.rotation);
+            if (!isUseOriginRotation)
+            {
+                Instantiate(bullets[Random.Range(0, bullets.Count)], createTransform.position, createTransform.rotation);
+            }
+            else
+            {
+                Instantiate(bullets[Random.Range(0, bullets.Count)], createTransform.position, new Quaternion(0f, 0f, 0f, 0f));
+
+            }
             runtime += timeRate;
         }
     }

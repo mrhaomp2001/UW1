@@ -6,7 +6,7 @@ public class BulletGroupContainer : MonoBehaviour
 {
     private void Start()
     {
-
+        ResetRotion();
     }
 
     public void ResetRotion()
