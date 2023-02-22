@@ -865,10 +865,24 @@ AnimationClip:
     floatParameter: 0
     intParameter: 13
     messageOptions: 0
+  - time: 17.75
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 180
+    intParameter: 0
+    messageOptions: 0
   - time: 33.933334
     functionName: SpawnBulletGroup
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 13
+    messageOptions: 0
+  - time: 47.633335
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
