@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Roko
+  m_Controller: {fileID: 9100000, guid: 4a0ceef7dcb680a4eab86a1ae49c048f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4be96f847aebeef46bd051fa78290534, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 080fe29b2068c81468e0a89fb46b719e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 51002ddfcc7282642be8f6792fdb8e1d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2218bec299203524f92a122226950000, type: 2}

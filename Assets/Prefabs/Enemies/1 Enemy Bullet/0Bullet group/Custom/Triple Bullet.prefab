@@ -107,6 +107,8 @@ MonoBehaviour:
   isSpriteLookAtPlayerUpdate: 1
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 1
+  isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4595665626714117475}
   destroyObject: {fileID: 0}
 --- !u!114 &4595665626714117472
@@ -137,6 +139,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTotal: 0.2
   timeUnit: 0.1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isStartTimer: 1
 --- !u!114 &4595665626714117478
 MonoBehaviour:

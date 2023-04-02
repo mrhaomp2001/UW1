@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected Animator animator;
     [SerializeField] protected GameObject ObjectContainer;
     [SerializeField] protected GameObject dieAnimation;
+    [SerializeField] protected GameObject collectable;
     [SerializeField] protected Color dieAnimationColor;
 
     public bool isObjectInPlayerArea;
@@ -21,6 +22,11 @@ public class Enemy : MonoBehaviour
         if (enemyHp <= 0)
         {
             Instantiate(dieAnimation, transform.position, transform.rotation).GetComponent<SpriteRenderer>().color = dieAnimationColor;
+
+            if (collectable != null)
+            {
+                Instantiate(collectable, transform.position, new Quaternion());
+            }
             Destroy(ObjectContainer);
         }
     }

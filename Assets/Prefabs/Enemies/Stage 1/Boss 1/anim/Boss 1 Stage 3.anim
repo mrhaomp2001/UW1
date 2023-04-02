@@ -509,6 +509,34 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0
+    functionName: TriggerEndSkill
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.16666667
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 180
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: setStateBossSpriteAnimator
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 3
+    functionName: setStateBossSpriteAnimator
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 3.2
     functionName: SpawnBulletGroup
     data: 
@@ -544,12 +572,40 @@ AnimationClip:
     floatParameter: 0
     intParameter: 7
     messageOptions: 0
+  - time: 4.633333
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 4.7833333
+    functionName: setStateBossSpriteAnimator
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
   - time: 7.042082
     functionName: SpawnBulletGroup
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 7
+    messageOptions: 0
+  - time: 7.133333
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 7.2999997
+    functionName: setStateBossSpriteAnimator
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 7.3816204
     functionName: SpawnBulletGroup
@@ -586,6 +642,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 7
     messageOptions: 0
+  - time: 8.566667
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 180
+    intParameter: 0
+    messageOptions: 0
   - time: 8.690275
     functionName: SpawnBulletGroup
     data: 
@@ -593,12 +656,33 @@ AnimationClip:
     floatParameter: 0
     intParameter: 7
     messageOptions: 0
+  - time: 8.733334
+    functionName: setStateBossSpriteAnimator
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 11.016666
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 180
+    intParameter: 0
+    messageOptions: 0
   - time: 11.07736
     functionName: SpawnBulletGroup
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 7
+    messageOptions: 0
+  - time: 11.116667
+    functionName: setStateBossSpriteAnimator
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 11.31718
     functionName: SpawnBulletGroup
@@ -627,6 +711,34 @@ AnimationClip:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 7
+    messageOptions: 0
+  - time: 12.116667
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 12.283334
+    functionName: setStateBossSpriteAnimator
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 15.716666
+    functionName: RotateYBossSprite
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 15.883333
+    functionName: setStateBossSpriteAnimator
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 16.016666
     functionName: SpawnBulletGroup

@@ -170,6 +170,7 @@ MonoBehaviour:
   speed: 16
   isNoClip: 0
   isDestroyEnemyBullet: 1
+  destroyObject: {fileID: 5750740123923918576}
   rb: {fileID: 3871760165004591995}
 --- !u!114 &5750740123923918576
 MonoBehaviour:
@@ -185,8 +186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDestroyByTime: 1
   destroyTime: 0.3
-  destroyEffect: {fileID: 0}
-  destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+  destroyEffect: {fileID: 5235499391155564979, guid: 7f11174060319c64f96aff0abb713c27, type: 3}
+  destroyEffectColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &4471197052575450623
 MonoBehaviour:
   m_ObjectHideFlags: 0

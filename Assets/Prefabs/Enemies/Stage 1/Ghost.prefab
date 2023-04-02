@@ -12,7 +12,7 @@ GameObject:
   m_Layer: 0
   m_Name: Down Right Cap
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -267,6 +267,7 @@ MonoBehaviour:
   animator: {fileID: 3724881386491222619}
   ObjectContainer: {fileID: 3724881385973242861}
   dieAnimation: {fileID: 1709908674196357677, guid: 94d2fc91a1c28ed4baaee09fdb8c866b, type: 3}
+  collectable: {fileID: 2846774973574903682, guid: 73b262e0b9a12514389fc2ef3b9cb3d3, type: 3}
   dieAnimationColor: {r: 1, g: 0.78431374, b: 1, a: 1}
   isObjectInPlayerArea: 0
 --- !u!114 &3724881386658163982
@@ -320,6 +321,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTotal: 0
   timeUnit: 0.1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isStartTimer: 1
 --- !u!1 &5403598879151040536
 GameObject:
@@ -333,7 +337,7 @@ GameObject:
   m_Layer: 0
   m_Name: Up Left Cap
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -434,6 +438,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTotal: 0
   timeUnit: 0.1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isStartTimer: 1
 --- !u!1001 &1104989188979171232
 PrefabInstance:

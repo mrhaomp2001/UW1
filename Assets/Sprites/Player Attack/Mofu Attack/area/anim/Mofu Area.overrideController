@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mofu Area
+  m_Controller: {fileID: 9100000, guid: fe5dc020e278e0f4a8967cdeab7f6984, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 105e1b416f2dd2c43b98e8ce31e08a5c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 991fb05807bf3d74d8c44af7e35c8762, type: 2}

@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HusbandNormal Attacks Destroy
+  m_Controller: {fileID: 9100000, guid: 2939336fd7bb1454f87ec17beed148f2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4829bdde1ba76e445a9c3cbb93457e04, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6c3b3a04e0188f4459ab7ce56eb27b4a, type: 2}

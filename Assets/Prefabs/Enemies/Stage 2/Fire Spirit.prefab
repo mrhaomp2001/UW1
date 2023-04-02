@@ -235,6 +235,7 @@ MonoBehaviour:
   animator: {fileID: 1443996969272366365}
   ObjectContainer: {fileID: 1443996968664332346}
   dieAnimation: {fileID: 1709908674196357677, guid: 94d2fc91a1c28ed4baaee09fdb8c866b, type: 3}
+  collectable: {fileID: 2846774973574903682, guid: 73b262e0b9a12514389fc2ef3b9cb3d3, type: 3}
   dieAnimationColor: {r: 1, g: 1, b: 1, a: 1}
   isObjectInPlayerArea: 0
 --- !u!114 &8165480700279633484

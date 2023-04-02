@@ -13,6 +13,11 @@ public class Boss : MonoBehaviour
     [SerializeField] private BossController bossController;
     [SerializeField] private GameObject destroyAllBullet;
 
+    public float BossHp { get => bossHp; set => bossHp = value; }
+    public int CurrentState { get => currentState; set => currentState = value; }
+    public List<int> Hp { get => hp; set => hp = value; }
+    public int StateCount { get => stateCount; set => stateCount = value; }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "PlayerBullet")

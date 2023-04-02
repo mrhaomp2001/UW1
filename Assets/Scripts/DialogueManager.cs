@@ -16,10 +16,26 @@ public class DialogueManager : MonoBehaviour
 
     private DialogueTrigger nextDialogueTrigger;
 
+
     private bool canShowNextSentence;
     public void Start()
     {
         sentences = new Queue<string>();
+    }
+
+    private void Update()
+    {
+
+        if (Input.GetButton("Left Shift"))
+        {
+            canShowNextSentence = true;
+            textSpeed = 0f;
+        }
+        else
+        {
+            textSpeed = 0.03f;
+        }
+
     }
 
     public void StartDialogue(Dialogue dialogue, DialogueTrigger nextDialogue)
@@ -47,6 +63,7 @@ public class DialogueManager : MonoBehaviour
                 return;
             }
             string sentence = sentences.Dequeue();
+
             StopAllCoroutines();
             StartCoroutine(TypeSentence(sentence));
             canShowNextSentence = false;
@@ -64,7 +81,9 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
+
             yield return new WaitForSeconds(textSpeed);
+
             if (dialogueText.text == sentence)
             {
                 canShowNextSentence = true;
@@ -83,7 +102,8 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-        
+
         }
+
     }
 }

@@ -6,6 +6,7 @@ public class PlayerBullet : MonoBehaviour
     [SerializeField] protected float speed;
     [SerializeField] protected bool isNoClip;
     [SerializeField] protected bool isDestroyEnemyBullet;
+    [SerializeField] protected DestroyObject destroyObject;
 
     [SerializeField] protected Rigidbody2D rb;
 
@@ -20,7 +21,7 @@ public class PlayerBullet : MonoBehaviour
     {
         if (collision.tag == "Enemy" || collision.tag == "Boss")
         {
-            Destroy(this.gameObject);
+            destroyObject.DestroyGameObject();
         }
 
         if (collision.tag == "EnemyBullet")
@@ -35,7 +36,7 @@ public class PlayerBullet : MonoBehaviour
         {
             if (!isNoClip)
             {
-                Destroy(this.gameObject);
+                destroyObject.DestroyGameObject();
             }
         }
     }

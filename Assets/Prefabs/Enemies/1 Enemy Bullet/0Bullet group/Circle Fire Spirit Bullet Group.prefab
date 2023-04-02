@@ -1120,6 +1120,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 716138532979326298}
   destroyObject: {fileID: 716138532979326303}
 --- !u!114 &716138532979326303
@@ -2687,6 +2688,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 716138533510604537}
   destroyObject: {fileID: 716138533510604538}
 --- !u!114 &716138533510604538
@@ -3846,6 +3848,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 716138533908713056}
   destroyObject: {fileID: 716138533908713061}
 --- !u!114 &716138533908713061
@@ -4958,6 +4961,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 716138534510937844}
   destroyObject: {fileID: 716138534510937849}
 --- !u!114 &716138534510937849
@@ -5417,6 +5421,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 716138534769304853}
   destroyObject: {fileID: 716138534769304854}
 --- !u!114 &716138534769304854
@@ -5811,6 +5816,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 3616171287685601579}
   destroyObject: {fileID: 3616171287685601492}
 --- !u!114 &3616171287685601492

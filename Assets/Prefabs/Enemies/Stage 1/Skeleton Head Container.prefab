@@ -699,6 +699,7 @@ MonoBehaviour:
   animator: {fileID: 2516970110200895898}
   ObjectContainer: {fileID: 2516970109081649172}
   dieAnimation: {fileID: 1709908674196357677, guid: 94d2fc91a1c28ed4baaee09fdb8c866b, type: 3}
+  collectable: {fileID: 2846774973574903682, guid: 73b262e0b9a12514389fc2ef3b9cb3d3, type: 3}
   dieAnimationColor: {r: 1, g: 1, b: 1, a: 1}
   isObjectInPlayerArea: 0
 --- !u!114 &3806803488616891286
@@ -753,6 +754,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTotal: 5
   timeUnit: 0.1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isStartTimer: 1
 --- !u!1 &2516970109788092552
 GameObject:

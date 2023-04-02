@@ -8,8 +8,10 @@ public class OptionsMenu : MonoBehaviour
 {
     public Dropdown resolutionDropdown;
     Resolution[] resolutions;
+    [SerializeField] private Text resolutionLabel;
 
     public AudioMixer audioMixer;
+    private float currentVolume;
 
     private void Start()
     {
@@ -33,6 +35,17 @@ public class OptionsMenu : MonoBehaviour
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.RefreshShownValue();
         SetResolution(currentResolutionIndex);
+
+        resolutionLabel.text = resolutions[currentResolutionIndex].ToString();
+    }
+
+    private void Update()
+    {
+        audioMixer.GetFloat("volume", out currentVolume);
+        if(currentVolume <= -20)
+        {
+            SetVolume(-80f);
+        }
     }
 
     public void SetVolume(float volume)
@@ -44,5 +57,19 @@ public class OptionsMenu : MonoBehaviour
     {
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+    }
+
+    public void SetFullScreen(bool isFullScreen)
+    {
+        Screen.fullScreen = isFullScreen;
+    }
+
+    public void QuitToStartScene()
+    {
+        Transition transition = FindObjectOfType<Transition>();
+        transition.SceneName = "StartMenu";
+        transition.X = 0f;
+        transition.Y = 0f;
+        transition.StartAnimation(1);
     }
 }
