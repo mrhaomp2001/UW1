@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 4684227938424143864}
   - component: {fileID: 576452216272576495}
   - component: {fileID: 4684227938424143871}
+  - component: {fileID: 8485909853452920131}
   m_Layer: 0
   m_Name: Trail Bullet
   m_TagString: Untagged
@@ -287,6 +288,20 @@ MonoBehaviour:
   bullets:
   - {fileID: 8218993910931061408, guid: 3dbcab6ccb175d743b95852239318f15, type: 3}
   timeRate: 0.1
+  isUseOriginRotation: 0
+--- !u!114 &8485909853452920131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4684227938424143865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: b137c14eacbd85a49a96e07dbfc36f62, type: 3}
 --- !u!1 &8899498147607619270
 GameObject:
   m_ObjectHideFlags: 0

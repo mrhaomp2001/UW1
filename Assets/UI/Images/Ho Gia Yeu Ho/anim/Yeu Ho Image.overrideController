@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Yeu Ho Image
+  m_Controller: {fileID: 9100000, guid: 4a0ceef7dcb680a4eab86a1ae49c048f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 51002ddfcc7282642be8f6792fdb8e1d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c84067ea3e27f3e43bb0b361c48194d8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4be96f847aebeef46bd051fa78290534, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8edd20cdefa931147b8fecec3c023e1f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ba3634044201cd04ea120962c40648c9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5b7701f4be52ea24f85f946d15855f11, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a136324eaa9d0a74baeb56d8071e5956, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8e107de7855a7534990f203370c0acb0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f4a201ec63bff4d438280d89031623b7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c2b1c4f84210dc941ab984747b9d905d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2513ba8eec50cc84c94aa3cccff98391, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f374a1bc84e9da045bc1c69bef0f523f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: df46468db9e9d194d81b822f25791628, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ddf77ed4cacba184fbf6b6e3cee30b4f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2cfc47a3560d5f84bb5c5142f20ea2f0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9bdd5902b20984e4c99ea585780e39f0, type: 2}

@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Storm 3 - 1
+  m_Controller: {fileID: 9100000, guid: 8b5ea6d10a8aa4c4cb321909a7190750, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c8c868b0fd7811e47a8bf7fa7be43121, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 216bc6615a3329a44bd98fa290532d00, type: 2}

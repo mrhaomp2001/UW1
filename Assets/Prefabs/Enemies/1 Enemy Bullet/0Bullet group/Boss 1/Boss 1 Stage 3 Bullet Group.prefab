@@ -183,6 +183,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413165055561822}
   destroyObject: {fileID: 6836413165055561819}
 --- !u!114 &6836413165055561819
@@ -953,6 +954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413166310415981}
   - {fileID: 6836413165526532478}
@@ -1365,6 +1367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413166950625253}
   - {fileID: 6836413166520892223}
@@ -1745,6 +1748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413165801018763}
   - {fileID: 6836413166784358167}
@@ -2088,6 +2092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6836413165528929621}
   - component: {fileID: 1744517739887280230}
+  - component: {fileID: 2468093648913700553}
   m_Layer: 0
   m_Name: Boss 1 Stage 3 Bullet Group
   m_TagString: Untagged
@@ -2140,6 +2145,19 @@ MonoBehaviour:
   destroyTime: 5
   destroyEffect: {fileID: 0}
   destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2468093648913700553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6836413165528929620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: 9082032c6e2ee184185aed13620b7d1b, type: 3}
 --- !u!1 &6836413165536866329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2714,6 +2732,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413165676996310}
   destroyObject: {fileID: 6836413165676996307}
 --- !u!114 &6836413165676996307
@@ -2796,6 +2815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413166806322726}
   - {fileID: 6836413165084694518}
@@ -3048,6 +3068,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413165775258329}
   destroyObject: {fileID: 6836413165775258326}
 --- !u!114 &6836413165775258326
@@ -3380,6 +3401,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413165817291383}
   destroyObject: {fileID: 6836413165817291380}
 --- !u!114 &6836413165817291380
@@ -3516,6 +3538,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413165836440235}
   destroyObject: {fileID: 6836413165836440232}
 --- !u!114 &6836413165836440232
@@ -4197,6 +4220,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413165890073427}
   destroyObject: {fileID: 6836413165890073424}
 --- !u!114 &6836413165890073424
@@ -4496,6 +4520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413165077988248}
   - {fileID: 6836413166136466412}
@@ -4712,6 +4737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413167083827490}
   - {fileID: 6836413166944367548}
@@ -4818,6 +4844,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413166016837867}
   destroyObject: {fileID: 6836413166016837864}
 --- !u!114 &6836413166016837864
@@ -5036,6 +5063,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413166062878516}
   destroyObject: {fileID: 6836413166062878513}
 --- !u!114 &6836413166062878513
@@ -5200,6 +5228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413165632082758}
   - {fileID: 6836413165441968746}
@@ -5993,6 +6022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413166646712325}
   - {fileID: 6836413165333408185}
@@ -6159,6 +6189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413165406075159}
   - {fileID: 6836413165517185193}
@@ -6766,6 +6797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413165371413607}
   - {fileID: 6836413167139676145}
@@ -6872,6 +6904,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413166372602180}
   destroyObject: {fileID: 6836413166372602177}
 --- !u!114 &6836413166372602177
@@ -7488,6 +7521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413165907586034}
   - {fileID: 6836413165857271662}
@@ -7818,6 +7852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413165392946761}
   - {fileID: 6836413165661699610}
@@ -9042,6 +9077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413166346501086}
   - {fileID: 6836413166681079141}
@@ -9148,6 +9184,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413166823929688}
   destroyObject: {fileID: 6836413166823929685}
 --- !u!114 &6836413166823929685
@@ -9284,6 +9321,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413166851356628}
   destroyObject: {fileID: 6836413166851356625}
 --- !u!114 &6836413166851356625
@@ -9420,6 +9458,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413166874557955}
   destroyObject: {fileID: 6836413166874557952}
 --- !u!114 &6836413166874557952
@@ -9556,6 +9595,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413166941064204}
   destroyObject: {fileID: 6836413166941064201}
 --- !u!114 &6836413166941064201
@@ -9795,6 +9835,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413166943705746}
   destroyObject: {fileID: 6836413166943705743}
 --- !u!114 &6836413166943705743
@@ -10041,6 +10082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413166126711773}
   - {fileID: 6836413165112025684}
@@ -10311,6 +10353,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 6836413167012489974}
   destroyObject: {fileID: 6836413167012489971}
 --- !u!114 &6836413167012489971
@@ -10393,6 +10436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 661671d8531589243a9b8c21d533b128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraw: 0
   controlPoints:
   - {fileID: 6836413165850624861}
   - {fileID: 6836413166821191291}

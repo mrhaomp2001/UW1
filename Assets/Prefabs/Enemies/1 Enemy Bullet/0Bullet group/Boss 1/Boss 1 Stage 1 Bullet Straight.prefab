@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1888247418158780506}
   - component: {fileID: 507016390222463015}
+  - component: {fileID: 4618985091414007688}
   m_Layer: 0
   m_Name: Boss 1 Stage 1 Bullet Straight
   m_TagString: Untagged
@@ -63,6 +64,19 @@ MonoBehaviour:
   destroyTime: 6
   destroyEffect: {fileID: 0}
   destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &4618985091414007688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888247418158780507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: f8162bffc622a0343937523106882651, type: 3}
 --- !u!1001 &1888247417123517990
 PrefabInstance:
   m_ObjectHideFlags: 0

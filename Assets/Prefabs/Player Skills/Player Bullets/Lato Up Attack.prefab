@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3367244188603978845}
   - component: {fileID: 7589286396907137060}
   - component: {fileID: 6370557299774599170}
+  - component: {fileID: 3459446081463013845}
   m_Layer: 0
   m_Name: Lato Up Attack
   m_TagString: PlayerBullet
@@ -187,3 +188,17 @@ MonoBehaviour:
   destroyTime: 1
   destroyEffect: {fileID: 0}
   destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &3459446081463013845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503538104541852181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: e0aef631ca336574a8833942cae2a038, type: 3}
+  audioClip: {fileID: 8300000, guid: f019c313caff72e4b80eb08e79f871b0, type: 3}

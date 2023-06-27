@@ -1681,6 +1681,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545530799534}
   destroyObject: {fileID: 4170322545530799523}
 --- !u!114 &4170322545530799523
@@ -2611,6 +2612,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545625355851}
   destroyObject: {fileID: 4170322545625355848}
 --- !u!114 &4170322545625355848
@@ -2965,6 +2967,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545658439391}
   destroyObject: {fileID: 4170322545658439388}
 --- !u!114 &4170322545658439388
@@ -4407,6 +4410,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545831000831}
   destroyObject: {fileID: 4170322545831000828}
 --- !u!114 &4170322545831000828
@@ -4533,6 +4537,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545831885353}
   destroyObject: {fileID: 4170322545831885358}
 --- !u!114 &4170322545831885358
@@ -5695,6 +5700,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545902073533}
   destroyObject: {fileID: 4170322545902073522}
 --- !u!114 &4170322545902073522
@@ -6038,6 +6044,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545936482806}
   destroyObject: {fileID: 4170322545936482795}
 --- !u!114 &4170322545936482795
@@ -6762,6 +6769,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545976316889}
   destroyObject: {fileID: 4170322545976316894}
 --- !u!114 &4170322545976316894
@@ -6970,6 +6978,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322545988381495}
   destroyObject: {fileID: 4170322545988381492}
 --- !u!114 &4170322545988381492
@@ -7633,6 +7642,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546017877746}
   destroyObject: {fileID: 4170322546017877751}
 --- !u!114 &4170322546017877751
@@ -7791,6 +7801,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546019166581}
   destroyObject: {fileID: 4170322546019166570}
 --- !u!114 &4170322546019166570
@@ -8579,6 +8590,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546104498885}
   destroyObject: {fileID: 4170322546104499514}
 --- !u!114 &4170322546104499514
@@ -9253,6 +9265,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546170340099}
   destroyObject: {fileID: 4170322546170340096}
 --- !u!114 &4170322546170340096
@@ -10252,6 +10265,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546239593621}
   destroyObject: {fileID: 4170322546239593610}
 --- !u!114 &4170322546239593610
@@ -10862,6 +10876,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546271930263}
   destroyObject: {fileID: 4170322546271930260}
 --- !u!114 &4170322546271930260
@@ -13516,6 +13531,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546480265567}
   destroyObject: {fileID: 4170322546480265564}
 --- !u!114 &4170322546480265564
@@ -14243,6 +14259,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546532187625}
   destroyObject: {fileID: 4170322546532187630}
 --- !u!114 &4170322546532187630
@@ -14639,6 +14656,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546552991637}
   destroyObject: {fileID: 4170322546552991626}
 --- !u!114 &4170322546552991626
@@ -15702,6 +15720,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546657267459}
   destroyObject: {fileID: 4170322546657267456}
 --- !u!114 &4170322546657267456
@@ -16468,6 +16487,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546677445956}
   destroyObject: {fileID: 4170322546677446073}
 --- !u!114 &4170322546677446073
@@ -16822,6 +16842,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546689558022}
   destroyObject: {fileID: 4170322546689558139}
 --- !u!114 &4170322546689558139
@@ -17247,6 +17268,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546731421001}
   destroyObject: {fileID: 4170322546731421006}
 --- !u!114 &4170322546731421006
@@ -17373,6 +17395,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546731498331}
   destroyObject: {fileID: 4170322546731498328}
 --- !u!114 &4170322546731498328
@@ -17748,6 +17771,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546764009022}
   destroyObject: {fileID: 4170322546764009011}
 --- !u!114 &4170322546764009011
@@ -18551,6 +18575,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546837498776}
   destroyObject: {fileID: 4170322546837498781}
 --- !u!114 &4170322546837498781
@@ -19317,6 +19342,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546884936049}
   destroyObject: {fileID: 4170322546884936054}
 --- !u!114 &4170322546884936054
@@ -19721,6 +19747,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322546898953482}
   destroyObject: {fileID: 4170322546898953487}
 --- !u!114 &4170322546898953487
@@ -21125,6 +21152,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547005501443}
   destroyObject: {fileID: 4170322547005501440}
 --- !u!114 &4170322547005501440
@@ -22458,6 +22486,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547067223919}
   destroyObject: {fileID: 4170322547067223916}
 --- !u!114 &4170322547067223916
@@ -23905,6 +23934,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547216350852}
   destroyObject: {fileID: 4170322547216350969}
 --- !u!114 &4170322547216350969
@@ -25838,6 +25868,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547345067602}
   destroyObject: {fileID: 4170322547345067607}
 --- !u!114 &4170322547345067607
@@ -26046,6 +26077,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547377667545}
   destroyObject: {fileID: 4170322547377667550}
 --- !u!114 &4170322547377667550
@@ -26887,6 +26919,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547433177202}
   destroyObject: {fileID: 4170322547433177207}
 --- !u!114 &4170322547433177207
@@ -27165,6 +27198,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547453358649}
   destroyObject: {fileID: 4170322547453358654}
 --- !u!114 &4170322547453358654
@@ -27754,6 +27788,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547487382712}
   destroyObject: {fileID: 4170322547487382717}
 --- !u!114 &4170322547487382717
@@ -27962,6 +27997,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547499113196}
   destroyObject: {fileID: 4170322547499113185}
 --- !u!114 &4170322547499113185
@@ -28141,6 +28177,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547502305213}
   destroyObject: {fileID: 4170322547502305202}
 --- !u!114 &4170322547502305202
@@ -28267,6 +28304,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547507108908}
   destroyObject: {fileID: 4170322547507108897}
 --- !u!114 &4170322547507108897
@@ -29062,6 +29100,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 4170322547576109509}
   destroyObject: {fileID: 4170322547576109114}
 --- !u!114 &4170322547576109114
@@ -29273,6 +29312,7 @@ GameObject:
   - component: {fileID: 5868445869957873630}
   - component: {fileID: 5868445869957873629}
   - component: {fileID: 3285192490721470086}
+  - component: {fileID: 608844981096544757}
   m_Layer: 0
   m_Name: Fire Spirit Bullet Group
   m_TagString: Untagged
@@ -29358,6 +29398,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   isStartTimer: 1
+--- !u!114 &608844981096544757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5868445869957873600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: b137c14eacbd85a49a96e07dbfc36f62, type: 3}
 --- !u!1 &7015414113612888618
 GameObject:
   m_ObjectHideFlags: 0
@@ -29552,6 +29605,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 7015414114833332139}
   destroyObject: {fileID: 7015414114833331796}
 --- !u!114 &7015414114833331796

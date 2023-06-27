@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1709908674196357667}
   - component: {fileID: 1709908674196357666}
   - component: {fileID: 3215657587819697156}
+  - component: {fileID: 1774343397371753299}
   m_Layer: 0
   m_Name: Enemy Die 1
   m_TagString: Untagged
@@ -117,3 +118,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDestroyByTime: 0
   destroyTime: 0
+  destroyEffect: {fileID: 0}
+  destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1774343397371753299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709908674196357677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: 2a0684e96fac00c4585878c6068ca327, type: 3}

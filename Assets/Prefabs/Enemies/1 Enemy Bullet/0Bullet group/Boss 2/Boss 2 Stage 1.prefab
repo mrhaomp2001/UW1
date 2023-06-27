@@ -65,6 +65,7 @@ MonoBehaviour:
   bullets:
   - {fileID: 7251738726152184960, guid: eb9c14bb8ff5d1d4a9705c3959b88594, type: 3}
   timeRate: 0.2
+  isUseOriginRotation: 0
 --- !u!1 &4335127373256761253
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +213,7 @@ MonoBehaviour:
   bullets:
   - {fileID: 7251738726152184960, guid: eb9c14bb8ff5d1d4a9705c3959b88594, type: 3}
   timeRate: 0.2
+  isUseOriginRotation: 0
 --- !u!1 &5163422091429379014
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +969,7 @@ MonoBehaviour:
   bullets:
   - {fileID: 7251738726152184960, guid: eb9c14bb8ff5d1d4a9705c3959b88594, type: 3}
   timeRate: 0.2
+  isUseOriginRotation: 0
 --- !u!1 &5163422091585760105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,6 +1643,7 @@ MonoBehaviour:
   bullets:
   - {fileID: 7251738726152184960, guid: eb9c14bb8ff5d1d4a9705c3959b88594, type: 3}
   timeRate: 0.2
+  isUseOriginRotation: 0
 --- !u!1 &5163422092691914923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,6 +1812,7 @@ MonoBehaviour:
   bullets:
   - {fileID: 7251738726152184960, guid: eb9c14bb8ff5d1d4a9705c3959b88594, type: 3}
   timeRate: 0.2
+  isUseOriginRotation: 0
 --- !u!1 &5163422092813596438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1936,6 +1941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5163422092823314288}
+  - component: {fileID: 8273094315496401109}
   m_Layer: 0
   m_Name: Boss 2 Stage 1
   m_TagString: Untagged
@@ -1963,6 +1969,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8273094315496401109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5163422092823314303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: 9082032c6e2ee184185aed13620b7d1b, type: 3}
 --- !u!1 &5163422093407464401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,6 +2047,7 @@ MonoBehaviour:
   bullets:
   - {fileID: 7251738726152184960, guid: eb9c14bb8ff5d1d4a9705c3959b88594, type: 3}
   timeRate: 0.2
+  isUseOriginRotation: 0
 --- !u!1 &8838442738214912056
 GameObject:
   m_ObjectHideFlags: 0

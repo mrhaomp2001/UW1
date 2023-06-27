@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 1606955605976644303}
   - component: {fileID: 1606955605976644337}
   - component: {fileID: 7798254797224023931}
-  - component: {fileID: 2160231115181046900}
   - component: {fileID: 1606955605976644296}
   - component: {fileID: 3379247464698126436}
+  - component: {fileID: 8146362252957495293}
   m_Layer: 0
   m_Name: CS Attack
   m_TagString: PlayerBullet
@@ -190,19 +190,6 @@ MonoBehaviour:
   destroyTime: 1
   destroyEffect: {fileID: 276423383280650978, guid: 8af0a5338d59db94fafd4fee646a4345, type: 3}
   destroyEffectColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &2160231115181046900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606955605976644299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  createObject: {fileID: 5861313962101458540, guid: 26c423dadce59cd48a0358d57c86ae1e, type: 3}
 --- !u!114 &1606955605976644296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,3 +314,16 @@ TrailRenderer:
   m_MinVertexDistance: 1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &8146362252957495293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606955605976644299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: 12b498b07085b914e986fdbca70e3211, type: 3}

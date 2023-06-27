@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1514092871770035753}
   - component: {fileID: 5158429445352974458}
+  - component: {fileID: 2898145926286434887}
   m_Layer: 0
   m_Name: Skeleton head Bullet Group
   m_TagString: Untagged
@@ -69,6 +70,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDestroyByTime: 1
   destroyTime: 10
+  destroyEffect: {fileID: 0}
+  destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2898145926286434887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514092871770035754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: b137c14eacbd85a49a96e07dbfc36f62, type: 3}
 --- !u!1001 &1514092870147608278
 PrefabInstance:
   m_ObjectHideFlags: 0

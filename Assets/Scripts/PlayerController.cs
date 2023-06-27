@@ -83,6 +83,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Timer timerPlayerFocusFireSkill;
     [SerializeField] private GameObject[] playerFocusFireSkill;
 
+    [Header(" >> Sounds: ")]
+    [SerializeField] private GameObject playerJumpSoundFx;
+
+
     [Header(" >> UI: ")]
     [SerializeField] private Slider hpBar;
     [SerializeField] private Text hpText;
@@ -146,7 +150,6 @@ public class PlayerController : MonoBehaviour
             if (!isTalking)
             {
                 PlayerFire();
-                PlayerSkill();
                 cinemachineVirtualCamera.GetCinemachineComponent<CinemachineFramingTransposer>().m_TrackedObjectOffset = new Vector3(0f, 3f);
             }
             else
@@ -160,6 +163,8 @@ public class PlayerController : MonoBehaviour
             }
         }
         Animation(AnimationStates());
+
+        PlayerSkill();
 
         UpdateUI();
 
@@ -180,6 +185,11 @@ public class PlayerController : MonoBehaviour
             GameData.PLAYER_EP -= 6;
         }
 
+        if (SceneManager.GetActiveScene().name == "StageGameOver" || SceneManager.GetActiveScene().name == "StartMenu")
+        {
+            isTalking = true;
+        }
+
         if (GameData.PLAYER_HP <= 0)
         {
             if (SceneManager.GetActiveScene().name != "StageGameOver")
@@ -191,7 +201,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(GameData.PLAYER_MP > GameData.PLAYER_MP_MAX)
+        if (GameData.PLAYER_MP > GameData.PLAYER_MP_MAX)
         {
             GameData.PLAYER_MP = GameData.PLAYER_MP_MAX;
         }
@@ -207,13 +217,18 @@ public class PlayerController : MonoBehaviour
 
             if (playerControlEffectControl != null)
             {
-                Destroy(playerControlEffectControl.gameObject);
+                Destroy(playerControlEffectControl);
             }
 
             if (playerControlEffectControl != null)
             {
-                Destroy(playerControlEffectControl.gameObject);
+                Destroy(playerControlEffectControl);
                 speedControl = 0f;
+            }
+
+            if (mofuAreaFocusModeControl != null)
+            {
+                Destroy(mofuAreaFocusModeControl);
             }
         }
     }
@@ -310,6 +325,23 @@ public class PlayerController : MonoBehaviour
             isCanHurt = false;
             StartCoroutine(PlayerHurtCD(4f));
         }
+        gameObjectOptionsMenu.SetActive(false);
+
+        if (playerControlEffectControl != null)
+        {
+            Destroy(playerControlEffectControl);
+        }
+
+        if (playerControlEffectControl != null)
+        {
+            Destroy(playerControlEffectControl);
+            speedControl = 0f;
+        }
+
+        if (mofuAreaFocusModeControl != null)
+        {
+            Destroy(mofuAreaFocusModeControl);
+        }
     }
 
     public void ChangeHurtToFalse()
@@ -369,7 +401,7 @@ public class PlayerController : MonoBehaviour
 
         sliderPlayerFocusSkill.value = timerPlayerFocusFireSkill.timeTotal;
 
-        if(playerFocusFireType == 0)
+        if (playerFocusFireType == 0)
         {
             gameObjectsPlayerFocusIcon[0].SetActive(true);
             gameObjectsPlayerFocusIcon[1].SetActive(false);
@@ -469,6 +501,7 @@ public class PlayerController : MonoBehaviour
     private void PlayerJump()
     {
         rbPlayer.velocity = new Vector2(rbPlayer.velocity.x, jumpHeight);
+        Instantiate(playerJumpSoundFx, transform.position, transform.rotation);
     }
 
     public void playerInvicible(float time)

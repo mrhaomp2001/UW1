@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8813963888830791120}
   - component: {fileID: 182718239560446577}
+  - component: {fileID: 7641031594298391806}
   m_Layer: 0
   m_Name: Ghost Bullet Group
   m_TagString: Untagged
@@ -54,6 +55,19 @@ MonoBehaviour:
   destroyTime: 6
   destroyEffect: {fileID: 0}
   destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &7641031594298391806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8813963888830791121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: b137c14eacbd85a49a96e07dbfc36f62, type: 3}
 --- !u!1001 &8813963887208334411
 PrefabInstance:
   m_ObjectHideFlags: 0

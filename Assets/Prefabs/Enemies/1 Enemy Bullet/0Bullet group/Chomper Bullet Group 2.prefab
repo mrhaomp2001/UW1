@@ -502,6 +502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3738939845927254851}
   - component: {fileID: 810283306996478593}
+  - component: {fileID: 4474816882487085803}
   m_Layer: 0
   m_Name: Chomper Bullet Group 2
   m_TagString: Untagged
@@ -545,6 +546,19 @@ MonoBehaviour:
   destroyTime: 5
   destroyEffect: {fileID: 0}
   destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &4474816882487085803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3738939845927254850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: 9082032c6e2ee184185aed13620b7d1b, type: 3}
 --- !u!1 &5404669331036651804
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +761,8 @@ MonoBehaviour:
   isSpriteLookAtPlayerUpdate: 0
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
+  isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 5404669331277294281}
   destroyObject: {fileID: 5404669331277294390}
 --- !u!114 &5404669331277294390
@@ -864,6 +880,8 @@ MonoBehaviour:
   isSpriteLookAtPlayerUpdate: 0
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
+  isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 5404669331317061051}
   destroyObject: {fileID: 5404669331317060676}
 --- !u!114 &5404669331317060676
@@ -1290,6 +1308,8 @@ MonoBehaviour:
   isSpriteLookAtPlayerUpdate: 0
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
+  isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 5404669332232719517}
   destroyObject: {fileID: 5404669332232719714}
 --- !u!114 &5404669332232719714
@@ -1613,6 +1633,8 @@ MonoBehaviour:
   isSpriteLookAtPlayerUpdate: 0
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
+  isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 5404669332572328694}
   destroyObject: {fileID: 5404669332572328713}
 --- !u!114 &5404669332572328713
@@ -1730,6 +1752,8 @@ MonoBehaviour:
   isSpriteLookAtPlayerUpdate: 0
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
+  isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 5404669332654175506}
   destroyObject: {fileID: 5404669332654175469}
 --- !u!114 &5404669332654175469
@@ -1847,6 +1871,8 @@ MonoBehaviour:
   isSpriteLookAtPlayerUpdate: 0
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
+  isMoveRouteCurve: 0
+  isTrail: 0
   rb: {fileID: 5404669332656545781}
   destroyObject: {fileID: 5404669332656545290}
 --- !u!114 &5404669332656545290

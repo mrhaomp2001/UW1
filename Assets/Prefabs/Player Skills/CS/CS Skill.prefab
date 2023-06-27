@@ -544,6 +544,7 @@ GameObject:
   - component: {fileID: 5812689846173989082}
   - component: {fileID: 5812689846173989076}
   - component: {fileID: 5812689846173989083}
+  - component: {fileID: 8954157603834027682}
   m_Layer: 0
   m_Name: CS Skill
   m_TagString: Untagged
@@ -645,6 +646,19 @@ MonoBehaviour:
   destroyTime: 6
   destroyEffect: {fileID: 0}
   destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &8954157603834027682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5812689846173989079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: 508686ee35c4d6143a606e4f16c0f41b, type: 3}
 --- !u!1 &5812689846317318468
 GameObject:
   m_ObjectHideFlags: 0

@@ -41,6 +41,7 @@ public class OptionsMenu : MonoBehaviour
 
     private void Update()
     {
+        resolutionLabel.text = Screen.currentResolution.ToString();
         audioMixer.GetFloat("volume", out currentVolume);
         if(currentVolume <= -20)
         {

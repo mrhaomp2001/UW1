@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3337961506218307268}
   - component: {fileID: 8846489004860681812}
   - component: {fileID: 8846489004860681809}
+  - component: {fileID: 7294290488859565168}
   m_Layer: 0
   m_Name: Player Healing Effect
   m_TagString: Untagged
@@ -132,3 +133,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60db9866f3b4f3442b6798dc68d9ae4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7294290488859565168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8846489004860681810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: e0aef631ca336574a8833942cae2a038, type: 3}

@@ -61,6 +61,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTotal: 0
   timeUnit: 0.1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isStartTimer: 1
 --- !u!1 &2387656989757716246
 GameObject:
@@ -123,6 +126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTotal: 0
   timeUnit: 0.1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isStartTimer: 1
 --- !u!1 &2387656989826402512
 GameObject:
@@ -265,6 +271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3530188893778562055}
   - component: {fileID: 4315014363690444077}
+  - component: {fileID: 7550926918818027957}
   m_Layer: 0
   m_Name: Boss 1 Triple warter drop Statue 2
   m_TagString: BulletSpawner
@@ -304,6 +311,19 @@ MonoBehaviour:
   destroyTime: 11
   destroyEffect: {fileID: 0}
   destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &7550926918818027957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772946146826863107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: f8162bffc622a0343937523106882651, type: 3}
 --- !u!1 &3216248317647713465
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +447,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTotal: 0
   timeUnit: 0.1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isStartTimer: 1
 --- !u!1 &7419277080656149750
 GameObject:
@@ -558,4 +581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTotal: 0
   timeUnit: 0.1
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isStartTimer: 1

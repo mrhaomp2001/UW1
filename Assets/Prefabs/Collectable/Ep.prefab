@@ -214,5 +214,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDestroyByTime: 0
   destroyTime: 0
-  destroyEffect: {fileID: 0}
+  destroyEffect: {fileID: 5861313962101458540, guid: 83f62e35b056d224fbff0155a8964492, type: 3}
   destroyEffectColor: {r: 0, g: 0, b: 0, a: 0}

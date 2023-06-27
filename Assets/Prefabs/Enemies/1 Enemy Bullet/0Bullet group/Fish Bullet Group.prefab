@@ -916,6 +916,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 4286459238783096351}
   destroyObject: {fileID: 4286459238783096346}
 --- !u!114 &4286459238783096346
@@ -1454,6 +1455,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 4286459239020534403}
   destroyObject: {fileID: 4286459239020534430}
 --- !u!114 &4286459239020534430
@@ -2334,6 +2336,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 4286459239544143672}
   destroyObject: {fileID: 4286459239544143671}
 --- !u!114 &4286459239544143671
@@ -2470,6 +2473,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 4286459239547840052}
   destroyObject: {fileID: 4286459239547840051}
 --- !u!114 &4286459239547840051
@@ -2606,6 +2610,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 4286459239556591509}
   destroyObject: {fileID: 4286459239556591504}
 --- !u!114 &4286459239556591504
@@ -4369,6 +4374,7 @@ MonoBehaviour:
   isMoveToPlayerStart: 0
   isMoveToPlayerUpdate: 0
   isMoveRouteCurve: 1
+  isTrail: 0
   rb: {fileID: 8116328614333740774}
   destroyObject: {fileID: 8116328614333740825}
 --- !u!114 &8116328614333740825
@@ -4416,6 +4422,7 @@ GameObject:
   - component: {fileID: 8263032253017120795}
   - component: {fileID: 8263032253017120792}
   - component: {fileID: 4427284711068260614}
+  - component: {fileID: 444425902037568130}
   m_Layer: 0
   m_Name: Fish Bullet Group
   m_TagString: Untagged
@@ -4501,3 +4508,16 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   isStartTimer: 1
+--- !u!114 &444425902037568130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263032253017120773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4045fd75d0a8b784981c2589523de5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObject: {fileID: 5861313962101458540, guid: 9082032c6e2ee184185aed13620b7d1b, type: 3}
